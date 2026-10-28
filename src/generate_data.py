@@ -2,10 +2,9 @@
 # Genera un dataset sintetico di clienti della startup e lo salva in data/customers.csv
 
 import random
+import pandas as pd
 from datetime import date, timedelta
 from pathlib import Path
-
-import pandas as pd
 
 SEED = 42
 EXTRACTION_DATE = date(2026, 10, 31)  
