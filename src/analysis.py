@@ -32,6 +32,7 @@ RANDOM_STATE = 42
 N_INIT = 10
 ELBOW_K_VALUES = range(1, 11)
 SILHOUETTE_K_VALUES = range(2, 11)
+COMPARED_K_VALUES = [3, 4]
 
 
 def load_data() -> pd.DataFrame:
@@ -117,7 +118,17 @@ def plot_silhouette(k_values: range, silhouettes: list[float]) -> None:
     ax.set_ylabel("Silhouette media")
     ax.set_title("Silhouette media per numero di gruppi")
     fig.savefig(IMAGES_DIR / "silhouette.png", dpi=150, bbox_inches="tight")
-    plt.close(fig) 
+    plt.close(fig)
+
+
+def fit_kmeans(X: np.ndarray, k: int) -> KMeans:
+    """Addestra K-Means con k gruppi sui dati normalizzati e restituisce il modello."""
+    kmeans = KMeans(n_clusters=k, random_state=RANDOM_STATE, n_init=N_INIT)
+    kmeans.fit(X)
+    return kmeans
+
+def cluster_profiles(df: pd.DataFrame, labels: np.ndarray) -> pd.DataFrame:
+    """Restituisce il profilo di ogni gruppo: medie delle variabili originali e numero di clienti."""
 
 
 def main() -> None:
