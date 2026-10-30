@@ -5,13 +5,16 @@ from pathlib import Path
 
 import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
 from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score
 from sklearn.preprocessing import StandardScaler
 
+# Percorsi
 DATA_DIR = Path(__file__).parent.parent / "data"
 CUSTOMERS_PATH = DATA_DIR / "customers.csv"
 PROFILES_PATH = DATA_DIR / "profiles.csv"
+IMAGES_DIR = Path(__file__).parent.parent / "immagini"
 
 # Colonne numeriche del CSV, descritte nell'esplorazione iniziale
 RAW_NUMERIC_COLUMNS = ["days_since_last", "recharges", "total_spent"]
@@ -29,6 +32,7 @@ RANDOM_STATE = 42
 N_INIT = 10
 ELBOW_K_VALUES = range(1, 11)
 SILHOUETTE_K_VALUES = range(2, 11)
+
 
 def load_data() -> pd.DataFrame:
     """Legge customers.csv e restituisce un DataFrame, con signup_date come data."""
@@ -72,27 +76,52 @@ def scale_features(df: pd.DataFrame) -> tuple[np.ndarray, StandardScaler]:
 
 def compute_inertias(X: np.ndarray, k_values: range) -> list[float]:
     """Esegue K-Means per ogni k e restituisce l'inertia di ciascuno (metodo del gomito)."""
-    inertie = []
+    inertias = []
     for k in k_values:
         kmeans = KMeans(n_clusters=k, random_state=RANDOM_STATE, n_init=N_INIT)
-        kmeans.fit_predict(X)
-        inertie.append(kmeans.inertia_)
+        kmeans.fit(X)
+        inertias.append(kmeans.inertia_)
 
-    return inertie
+    return inertias
+
 
 def compute_silhouettes(X: np.ndarray, k_values: range) -> list[float]:
     """Esegue K-Means per ogni k e restituisce la silhouette media di ciascuno."""
     silhouettes = []
     for k in k_values:
         kmeans = KMeans(n_clusters=k, random_state=RANDOM_STATE, n_init=N_INIT)
-        gruppi = kmeans.fit_predict(X)
-        silhouette = silhouette_score(X, gruppi)
+        labels = kmeans.fit_predict(X)
+        silhouette = silhouette_score(X, labels)
         silhouettes.append(silhouette)
     return silhouettes
-    
+
+
+def plot_elbow(k_values: range, inertias: list[float]) -> None:
+    """Disegna il grafico del gomito (inertia per ogni k) e lo salva in immagini/gomito.png."""
+    fig, ax = plt.subplots(figsize=(7, 4))
+    ax.plot(list(k_values), inertias, marker="o")
+    ax.set_xticks(list(k_values))
+    ax.set_xlabel("Numero di gruppi (k)")
+    ax.set_ylabel("Inertia")
+    ax.set_title("Metodo del gomito")
+    fig.savefig(IMAGES_DIR / "gomito.png", dpi=150, bbox_inches="tight")
+    plt.close(fig) 
+
+
+def plot_silhouette(k_values: range, silhouettes: list[float]) -> None:
+    """Disegna la silhouette media per ogni k e la salva in immagini/silhouette.png."""
+    fig, ax = plt.subplots(figsize=(7, 4))
+    ax.plot(list(k_values), silhouettes, marker="o")
+    ax.set_xticks(list(k_values))
+    ax.set_xlabel("Numero di gruppi (k)")
+    ax.set_ylabel("Silhouette media")
+    ax.set_title("Silhouette media per numero di gruppi")
+    fig.savefig(IMAGES_DIR / "silhouette.png", dpi=150, bbox_inches="tight")
+    plt.close(fig) 
+
 
 def main() -> None:
-    """Carica i dati dei clienti, li prepara e normalizza R, F, M per il clustering."""
+    """Prepara i dati, normalizza R, F, M e calcola gomito e silhouette per scegliere k."""
     np.set_printoptions(suppress=True)
     df = load_data()
     explore(df)
@@ -106,8 +135,12 @@ def main() -> None:
     inertias = compute_inertias(X, ELBOW_K_VALUES)
     print("Inertia:", np.round(inertias,2))
 
-    silhouette = compute_silhouettes(X, SILHOUETTE_K_VALUES)
-    print("Silhouette:", np.round(silhouette,3))
+    silhouettes = compute_silhouettes(X, SILHOUETTE_K_VALUES)
+    print("Silhouette:", np.round(silhouettes,3))
+
+    IMAGES_DIR.mkdir(parents=True, exist_ok=True)
+    plot_elbow(ELBOW_K_VALUES, inertias)
+    plot_silhouette(SILHOUETTE_K_VALUES, silhouettes)
     
 
 if __name__ == "__main__":
