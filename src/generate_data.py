@@ -2,12 +2,13 @@
 # Genera un dataset sintetico di clienti della startup e lo salva in data/customers.csv
 
 import random
-import pandas as pd
 from datetime import date, timedelta
 from pathlib import Path
 
+import pandas as pd
+
 SEED = 42
-EXTRACTION_DATE = date(2026, 10, 31)  
+EXTRACTION_DATE = date(2026, 10, 31)   # "oggi" del dataset: dopo 12 mesi di attività
 ZONES = ["Nord-Ovest", "Nord-Est", "Centro", "Sud", "Isole"]   # ripartizioni ISTAT
 CATEGORIES = ["Email", "OCR", "Geolocalizzazione", "Traduzione"]
 

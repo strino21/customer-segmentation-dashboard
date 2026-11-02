@@ -1,0 +1,401 @@
+customer_id,zone,category,signup_date,days_since_last,recharges,total_spent,avg_spent,cluster,segment
+1,Nord-Est,OCR,2026-01-21,3,15,6320.08,421.34,2,Clienti di valore
+2,Isole,Email,2026-05-29,3,36,6314.34,175.4,2,Clienti di valore
+3,Nord-Est,OCR,2026-02-02,13,16,1693.68,105.86,2,Clienti di valore
+4,Isole,Traduzione,2026-02-24,19,15,5148.09,343.21,2,Clienti di valore
+5,Nord-Ovest,OCR,2026-05-08,14,33,3308.24,100.25,2,Clienti di valore
+6,Nord-Est,Geolocalizzazione,2026-01-06,13,25,3306.16,132.25,2,Clienti di valore
+7,Centro,Geolocalizzazione,2026-06-07,2,27,2128.66,78.84,2,Clienti di valore
+8,Nord-Ovest,Traduzione,2025-12-09,1,38,4486.26,118.06,2,Clienti di valore
+9,Isole,Geolocalizzazione,2026-06-13,17,24,6891.13,287.13,2,Clienti di valore
+10,Nord-Est,Geolocalizzazione,2026-02-06,6,37,1952.11,52.76,2,Clienti di valore
+11,Sud,Geolocalizzazione,2026-06-13,7,18,3970.82,220.6,2,Clienti di valore
+12,Centro,Email,2026-05-23,11,26,2861.8,110.07,2,Clienti di valore
+13,Nord-Est,OCR,2026-01-29,20,20,4971.91,248.6,2,Clienti di valore
+14,Isole,OCR,2026-03-07,12,23,7931.9,344.87,2,Clienti di valore
+15,Nord-Est,Email,2026-01-09,10,39,6544.0,167.79,2,Clienti di valore
+16,Nord-Est,Geolocalizzazione,2025-12-09,10,27,3240.32,120.01,2,Clienti di valore
+17,Sud,OCR,2026-05-10,20,30,4071.61,135.72,2,Clienti di valore
+18,Isole,Geolocalizzazione,2026-04-27,4,22,6342.43,288.29,2,Clienti di valore
+19,Sud,Geolocalizzazione,2025-12-24,18,28,7335.85,261.99,2,Clienti di valore
+20,Nord-Ovest,Email,2026-05-08,4,31,4707.85,151.87,2,Clienti di valore
+21,Sud,Nessuna prevalente,2026-05-25,20,20,6648.52,332.43,2,Clienti di valore
+22,Isole,Geolocalizzazione,2026-03-27,12,34,7974.79,234.55,2,Clienti di valore
+23,Isole,Geolocalizzazione,2026-02-12,0,36,6184.69,171.8,2,Clienti di valore
+24,Sud,OCR,2025-12-19,20,25,2225.09,89.0,2,Clienti di valore
+25,Centro,OCR,2026-03-09,0,38,7193.04,189.29,2,Clienti di valore
+26,Isole,OCR,2026-02-24,3,35,3439.89,98.28,2,Clienti di valore
+27,Isole,Email,2026-05-25,11,39,2550.07,65.39,2,Clienti di valore
+28,Centro,Geolocalizzazione,2026-01-31,10,30,1626.6,54.22,2,Clienti di valore
+29,Nord-Ovest,Email,2026-05-03,1,22,7207.06,327.59,2,Clienti di valore
+30,Isole,OCR,2025-12-28,15,17,7856.9,462.17,2,Clienti di valore
+31,Isole,Traduzione,2026-06-01,15,32,2573.33,80.42,2,Clienti di valore
+32,Nord-Est,Geolocalizzazione,2026-05-10,17,39,6244.55,160.12,2,Clienti di valore
+33,Isole,Traduzione,2026-03-23,20,26,4347.65,167.22,2,Clienti di valore
+34,Non indicata,OCR,2026-06-03,7,22,1916.17,87.1,2,Clienti di valore
+35,Nord-Ovest,OCR,2026-02-03,7,15,1961.46,130.76,2,Clienti di valore
+36,Nord-Est,Geolocalizzazione,2026-06-16,1,25,1960.57,78.42,2,Clienti di valore
+37,Isole,Traduzione,2026-01-13,15,21,5005.02,238.33,2,Clienti di valore
+38,Nord-Ovest,Email,2026-05-02,15,40,4145.89,103.65,2,Clienti di valore
+39,Sud,Email,2026-01-16,13,26,4253.26,163.59,2,Clienti di valore
+40,Sud,Geolocalizzazione,2026-01-12,20,35,2139.72,61.13,2,Clienti di valore
+41,Isole,Traduzione,2025-12-11,3,22,2745.34,124.79,2,Clienti di valore
+42,Nord-Est,Email,2026-05-29,13,20,3310.54,165.53,2,Clienti di valore
+43,Isole,Email,2026-03-12,17,18,1828.82,101.6,2,Clienti di valore
+44,Sud,OCR,2026-06-10,7,20,4141.69,207.08,2,Clienti di valore
+45,Nord-Ovest,Traduzione,2025-11-24,12,16,2570.14,160.63,2,Clienti di valore
+46,Isole,Traduzione,2026-04-27,14,24,4249.55,177.06,2,Clienti di valore
+47,Nord-Ovest,Email,2026-05-25,6,24,2915.06,121.46,2,Clienti di valore
+48,Sud,OCR,2025-12-24,10,16,1825.93,114.12,2,Clienti di valore
+49,Nord-Ovest,Email,2026-06-19,16,17,7033.73,413.75,2,Clienti di valore
+50,Isole,OCR,2026-01-12,7,27,2279.26,84.42,2,Clienti di valore
+51,Sud,Geolocalizzazione,2026-02-05,19,16,5525.98,345.37,2,Clienti di valore
+52,Centro,OCR,2025-11-06,8,21,5853.22,278.72,2,Clienti di valore
+53,Centro,Traduzione,2026-04-27,12,19,5865.99,308.74,2,Clienti di valore
+54,Isole,Email,2026-04-14,2,15,4478.86,298.59,2,Clienti di valore
+55,Nord-Est,Geolocalizzazione,2026-06-15,17,21,4788.25,228.01,2,Clienti di valore
+56,Nord-Est,Nessuna prevalente,2025-11-20,2,22,3901.93,177.36,2,Clienti di valore
+57,Isole,Email,2025-12-02,17,37,3466.36,93.69,2,Clienti di valore
+58,Nord-Ovest,OCR,2026-01-14,17,24,7556.41,314.85,2,Clienti di valore
+59,Nord-Est,Geolocalizzazione,2026-04-27,3,18,6325.71,351.43,2,Clienti di valore
+60,Nord-Est,Geolocalizzazione,2026-04-22,19,21,6164.48,293.55,2,Clienti di valore
+61,Nord-Ovest,Email,2026-01-16,92,4,230.12,57.53,1,Occasionali e nuovi
+62,Centro,OCR,2025-11-11,84,4,49.26,12.32,1,Occasionali e nuovi
+63,Isole,Traduzione,2025-11-09,63,3,193.07,64.36,1,Occasionali e nuovi
+64,Nord-Est,Email,2025-12-18,31,2,46.55,23.28,1,Occasionali e nuovi
+65,Nord-Est,Email,2026-03-26,104,6,88.14,14.69,1,Occasionali e nuovi
+66,Nord-Est,OCR,2026-04-27,76,2,227.76,113.88,1,Occasionali e nuovi
+67,Sud,OCR,2026-08-10,52,6,227.99,38.0,1,Occasionali e nuovi
+68,Nord-Ovest,OCR,2026-06-02,50,3,223.91,74.64,1,Occasionali e nuovi
+69,Nord-Ovest,Traduzione,2026-04-14,82,3,88.7,29.57,1,Occasionali e nuovi
+70,Sud,Geolocalizzazione,2026-09-12,45,3,73.91,24.64,1,Occasionali e nuovi
+71,Nord-Est,Traduzione,2026-04-28,59,3,35.21,11.74,1,Occasionali e nuovi
+72,Centro,Geolocalizzazione,2026-04-16,65,2,242.72,121.36,1,Occasionali e nuovi
+73,Isole,Geolocalizzazione,2025-11-07,95,5,185.9,37.18,1,Occasionali e nuovi
+74,Centro,Email,2026-09-17,31,4,77.5,19.38,1,Occasionali e nuovi
+75,Centro,Traduzione,2026-08-07,68,5,119.14,23.83,1,Occasionali e nuovi
+76,Isole,OCR,2025-11-25,95,2,114.74,57.37,1,Occasionali e nuovi
+77,Isole,OCR,2026-05-24,35,5,50.34,10.07,1,Occasionali e nuovi
+78,Centro,Geolocalizzazione,2026-03-29,85,2,238.75,119.38,1,Occasionali e nuovi
+79,Sud,Geolocalizzazione,2026-07-30,68,6,118.76,19.79,1,Occasionali e nuovi
+80,Nord-Est,Traduzione,2026-03-09,119,4,156.43,39.11,1,Occasionali e nuovi
+81,Centro,Traduzione,2026-03-21,116,3,165.41,55.14,1,Occasionali e nuovi
+82,Sud,Geolocalizzazione,2025-12-25,30,4,100.25,25.06,1,Occasionali e nuovi
+83,Isole,Traduzione,2026-02-05,86,5,185.13,37.03,1,Occasionali e nuovi
+84,Isole,Geolocalizzazione,2026-07-07,114,2,92.43,46.22,1,Occasionali e nuovi
+85,Non indicata,OCR,2026-08-15,45,4,87.17,21.79,1,Occasionali e nuovi
+86,Isole,Email,2026-09-19,30,3,246.47,82.16,1,Occasionali e nuovi
+87,Sud,Traduzione,2026-02-10,83,6,96.94,16.16,1,Occasionali e nuovi
+88,Nord-Ovest,Email,2026-03-11,61,3,174.33,58.11,1,Occasionali e nuovi
+89,Isole,Traduzione,2026-02-26,58,3,206.9,68.97,1,Occasionali e nuovi
+90,Nord-Ovest,Traduzione,2026-09-06,47,3,231.84,77.28,1,Occasionali e nuovi
+91,Isole,Geolocalizzazione,2026-07-25,89,6,247.7,41.28,1,Occasionali e nuovi
+92,Isole,Traduzione,2026-02-17,108,6,141.08,23.51,1,Occasionali e nuovi
+93,Nord-Est,Geolocalizzazione,2026-07-12,90,5,101.84,20.37,1,Occasionali e nuovi
+94,Non indicata,Geolocalizzazione,2026-01-08,92,3,90.41,30.14,1,Occasionali e nuovi
+95,Non indicata,Email,2026-06-03,64,4,107.14,26.78,1,Occasionali e nuovi
+96,Nord-Est,OCR,2026-07-23,49,3,114.27,38.09,1,Occasionali e nuovi
+97,Sud,Traduzione,2026-08-30,56,5,116.18,23.24,1,Occasionali e nuovi
+98,Isole,Email,2026-08-31,43,5,127.9,25.58,1,Occasionali e nuovi
+99,Centro,Geolocalizzazione,2025-12-11,78,5,51.18,10.24,1,Occasionali e nuovi
+100,Isole,OCR,2026-03-16,83,6,202.03,33.67,1,Occasionali e nuovi
+101,Nord-Ovest,Traduzione,2026-01-25,58,4,131.53,32.88,1,Occasionali e nuovi
+102,Sud,OCR,2026-04-12,115,5,194.84,38.97,1,Occasionali e nuovi
+103,Isole,Email,2025-11-17,98,2,229.52,114.76,1,Occasionali e nuovi
+104,Sud,OCR,2026-08-20,71,5,77.14,15.43,1,Occasionali e nuovi
+105,Sud,Geolocalizzazione,2026-09-06,38,5,115.47,23.09,1,Occasionali e nuovi
+106,Sud,Nessuna prevalente,2026-04-12,78,4,197.92,49.48,1,Occasionali e nuovi
+107,Nord-Ovest,Geolocalizzazione,2026-08-21,60,2,194.79,97.4,1,Occasionali e nuovi
+108,Nord-Ovest,Email,2026-06-09,113,2,201.87,100.94,1,Occasionali e nuovi
+109,Nord-Est,OCR,2026-05-28,55,2,166.69,83.34,1,Occasionali e nuovi
+110,Nord-Est,Traduzione,2026-02-01,115,2,154.07,77.04,1,Occasionali e nuovi
+111,Nord-Ovest,OCR,2026-05-23,77,3,163.3,54.43,1,Occasionali e nuovi
+112,Centro,Traduzione,2026-04-25,43,6,64.88,10.81,1,Occasionali e nuovi
+113,Nord-Est,Email,2026-03-12,55,2,160.26,80.13,1,Occasionali e nuovi
+114,Isole,Email,2026-04-30,117,6,213.05,35.51,1,Occasionali e nuovi
+115,Nord-Ovest,Geolocalizzazione,2026-04-07,98,5,182.3,36.46,1,Occasionali e nuovi
+116,Nord-Ovest,Traduzione,2026-09-25,36,5,214.47,42.89,1,Occasionali e nuovi
+117,Sud,OCR,2026-03-30,111,5,191.46,38.29,1,Occasionali e nuovi
+118,Isole,Traduzione,2026-01-07,113,4,169.34,42.34,1,Occasionali e nuovi
+119,Nord-Est,Email,2026-02-05,85,6,111.0,18.5,1,Occasionali e nuovi
+120,Isole,Traduzione,2026-05-12,87,3,195.1,65.03,1,Occasionali e nuovi
+121,Nord-Est,Traduzione,2026-04-12,33,5,220.19,44.04,1,Occasionali e nuovi
+122,Isole,Geolocalizzazione,2026-06-15,75,4,111.47,27.87,1,Occasionali e nuovi
+123,Nord-Ovest,OCR,2025-12-21,31,6,240.13,40.02,1,Occasionali e nuovi
+124,Sud,Traduzione,2026-03-07,92,6,204.05,34.01,1,Occasionali e nuovi
+125,Sud,OCR,2026-02-14,32,2,94.73,47.36,1,Occasionali e nuovi
+126,Isole,Geolocalizzazione,2026-04-28,114,6,130.11,21.68,1,Occasionali e nuovi
+127,Sud,Geolocalizzazione,2026-02-26,100,4,113.88,28.47,1,Occasionali e nuovi
+128,Nord-Est,Geolocalizzazione,2026-04-28,62,3,56.54,18.85,1,Occasionali e nuovi
+129,Nord-Est,OCR,2026-08-01,77,6,240.67,40.11,1,Occasionali e nuovi
+130,Isole,Geolocalizzazione,2026-06-13,91,4,192.16,48.04,1,Occasionali e nuovi
+131,Nord-Est,Geolocalizzazione,2026-08-11,42,4,87.77,21.94,1,Occasionali e nuovi
+132,Nord-Ovest,Geolocalizzazione,2026-09-24,32,4,49.56,12.39,1,Occasionali e nuovi
+133,Isole,Geolocalizzazione,2026-07-29,92,2,222.0,111.0,1,Occasionali e nuovi
+134,Nord-Ovest,Geolocalizzazione,2026-02-03,91,5,118.14,23.63,1,Occasionali e nuovi
+135,Nord-Ovest,Email,2026-01-30,44,2,118.16,59.08,1,Occasionali e nuovi
+136,Nord-Ovest,OCR,2026-07-16,49,6,240.33,40.06,1,Occasionali e nuovi
+137,Isole,OCR,2026-08-02,65,5,171.26,34.25,1,Occasionali e nuovi
+138,Centro,Traduzione,2026-01-07,78,5,231.7,46.34,1,Occasionali e nuovi
+139,Nord-Ovest,Nessuna prevalente,2026-04-28,102,6,71.44,11.91,1,Occasionali e nuovi
+140,Nord-Est,Nessuna prevalente,2025-11-15,57,4,178.69,44.67,1,Occasionali e nuovi
+141,Sud,Traduzione,2026-07-05,100,2,64.44,32.22,1,Occasionali e nuovi
+142,Centro,Geolocalizzazione,2025-12-01,90,4,46.85,11.71,1,Occasionali e nuovi
+143,Isole,OCR,2026-02-11,39,3,233.26,77.75,1,Occasionali e nuovi
+144,Nord-Est,Geolocalizzazione,2026-02-26,44,6,102.71,17.12,1,Occasionali e nuovi
+145,Centro,Geolocalizzazione,2026-07-21,39,2,66.5,33.25,1,Occasionali e nuovi
+146,Sud,Geolocalizzazione,2026-02-19,45,5,187.74,37.55,1,Occasionali e nuovi
+147,Isole,Email,2026-01-18,99,5,137.55,27.51,1,Occasionali e nuovi
+148,Nord-Ovest,OCR,2026-02-22,71,6,107.57,17.93,1,Occasionali e nuovi
+149,Centro,Email,2025-12-11,105,2,249.91,124.96,1,Occasionali e nuovi
+150,Centro,OCR,2026-07-04,90,6,183.79,30.63,1,Occasionali e nuovi
+151,Sud,Geolocalizzazione,2025-12-06,85,5,243.81,48.76,1,Occasionali e nuovi
+152,Nord-Est,Geolocalizzazione,2026-03-06,72,4,180.73,45.18,1,Occasionali e nuovi
+153,Sud,Email,2026-03-05,118,5,107.64,21.53,1,Occasionali e nuovi
+154,Nord-Ovest,Traduzione,2026-02-11,41,4,93.0,23.25,1,Occasionali e nuovi
+155,Nord-Ovest,OCR,2026-01-11,30,6,147.78,24.63,1,Occasionali e nuovi
+156,Sud,Email,2026-01-09,76,6,203.72,33.95,1,Occasionali e nuovi
+157,Centro,Traduzione,2026-06-19,64,6,84.89,14.15,1,Occasionali e nuovi
+158,Isole,OCR,2026-01-26,45,2,244.09,122.04,1,Occasionali e nuovi
+159,Sud,Email,2026-07-12,69,6,62.6,10.43,1,Occasionali e nuovi
+160,Nord-Est,Traduzione,2026-06-08,44,5,239.41,47.88,1,Occasionali e nuovi
+161,Sud,Traduzione,2026-05-05,95,4,127.25,31.81,1,Occasionali e nuovi
+162,Nord-Est,OCR,2026-05-30,88,6,87.48,14.58,1,Occasionali e nuovi
+163,Isole,Geolocalizzazione,2026-08-27,47,5,117.98,23.6,1,Occasionali e nuovi
+164,Isole,Traduzione,2026-09-30,31,4,215.87,53.97,1,Occasionali e nuovi
+165,Centro,Traduzione,2026-07-17,87,6,152.02,25.34,1,Occasionali e nuovi
+166,Nord-Est,Traduzione,2026-02-10,71,3,245.77,81.92,1,Occasionali e nuovi
+167,Sud,Traduzione,2026-06-04,82,2,100.0,50.0,1,Occasionali e nuovi
+168,Nord-Ovest,OCR,2026-03-18,114,3,138.97,46.32,1,Occasionali e nuovi
+169,Sud,Email,2026-01-17,105,4,222.64,55.66,1,Occasionali e nuovi
+170,Sud,OCR,2026-01-05,88,2,188.94,94.47,1,Occasionali e nuovi
+171,Sud,Email,2026-08-24,60,4,111.1,27.78,1,Occasionali e nuovi
+172,Centro,Traduzione,2026-04-16,116,6,132.2,22.03,1,Occasionali e nuovi
+173,Centro,OCR,2025-12-28,34,6,73.0,12.17,1,Occasionali e nuovi
+174,Nord-Ovest,Traduzione,2026-08-16,57,2,197.28,98.64,1,Occasionali e nuovi
+175,Nord-Ovest,Geolocalizzazione,2026-07-08,68,2,40.12,20.06,1,Occasionali e nuovi
+176,Isole,Traduzione,2026-04-01,77,5,79.11,15.82,1,Occasionali e nuovi
+177,Nord-Ovest,Traduzione,2025-12-16,117,3,67.4,22.47,1,Occasionali e nuovi
+178,Isole,OCR,2025-11-18,117,3,139.49,46.5,1,Occasionali e nuovi
+179,Nord-Ovest,Traduzione,2026-06-05,89,4,136.51,34.13,1,Occasionali e nuovi
+180,Sud,Geolocalizzazione,2026-05-07,116,6,90.02,15.0,1,Occasionali e nuovi
+181,Sud,Geolocalizzazione,2025-12-05,68,5,188.06,37.61,1,Occasionali e nuovi
+182,Sud,Geolocalizzazione,2026-06-22,79,5,71.33,14.27,1,Occasionali e nuovi
+183,Sud,Geolocalizzazione,2025-12-11,67,4,44.61,11.15,1,Occasionali e nuovi
+184,Sud,Geolocalizzazione,2026-09-27,34,2,230.34,115.17,1,Occasionali e nuovi
+185,Nord-Est,Geolocalizzazione,2026-06-06,107,4,85.99,21.5,1,Occasionali e nuovi
+186,Sud,Nessuna prevalente,2026-07-23,42,2,97.97,48.98,1,Occasionali e nuovi
+187,Centro,Geolocalizzazione,2025-12-09,76,3,49.83,16.61,1,Occasionali e nuovi
+188,Isole,Geolocalizzazione,2026-03-03,52,3,59.08,19.69,1,Occasionali e nuovi
+189,Centro,Traduzione,2026-01-03,94,4,214.4,53.6,1,Occasionali e nuovi
+190,Nord-Ovest,OCR,2026-05-03,73,2,133.03,66.52,1,Occasionali e nuovi
+191,Isole,Geolocalizzazione,2026-06-08,116,5,243.45,48.69,1,Occasionali e nuovi
+192,Nord-Ovest,Traduzione,2026-08-16,55,2,88.18,44.09,1,Occasionali e nuovi
+193,Centro,Email,2026-03-27,116,4,162.76,40.69,1,Occasionali e nuovi
+194,Isole,Geolocalizzazione,2026-06-04,90,2,166.3,83.15,1,Occasionali e nuovi
+195,Sud,Geolocalizzazione,2025-11-23,58,2,169.79,84.9,1,Occasionali e nuovi
+196,Nord-Ovest,Geolocalizzazione,2025-11-03,82,2,60.75,30.38,1,Occasionali e nuovi
+197,Isole,OCR,2026-01-22,44,2,81.66,40.83,1,Occasionali e nuovi
+198,Isole,Traduzione,2026-03-17,88,4,180.8,45.2,1,Occasionali e nuovi
+199,Sud,Traduzione,2025-12-05,49,5,180.98,36.2,1,Occasionali e nuovi
+200,Sud,OCR,2026-05-11,34,4,85.63,21.41,1,Occasionali e nuovi
+201,Centro,Email,2026-03-30,42,4,154.34,38.58,1,Occasionali e nuovi
+202,Sud,Email,2026-03-12,65,3,243.01,81.0,1,Occasionali e nuovi
+203,Nord-Ovest,Geolocalizzazione,2026-06-15,112,6,244.51,40.75,1,Occasionali e nuovi
+204,Isole,OCR,2026-05-30,46,6,98.99,16.5,1,Occasionali e nuovi
+205,Nord-Est,Email,2025-12-05,57,3,102.28,34.09,1,Occasionali e nuovi
+206,Nord-Est,Email,2026-05-13,48,3,148.85,49.62,1,Occasionali e nuovi
+207,Nord-Est,Geolocalizzazione,2026-09-18,32,2,108.81,54.4,1,Occasionali e nuovi
+208,Sud,Email,2026-09-23,32,4,51.0,12.75,1,Occasionali e nuovi
+209,Isole,Email,2026-08-30,60,5,205.6,41.12,1,Occasionali e nuovi
+210,Non indicata,Geolocalizzazione,2026-02-12,94,3,237.99,79.33,1,Occasionali e nuovi
+211,Non indicata,Traduzione,2026-02-09,112,2,43.38,21.69,1,Occasionali e nuovi
+212,Sud,Email,2026-02-25,117,2,137.86,68.93,1,Occasionali e nuovi
+213,Nord-Est,Geolocalizzazione,2026-08-21,50,6,88.18,14.7,1,Occasionali e nuovi
+214,Centro,Traduzione,2025-11-16,111,6,164.19,27.36,1,Occasionali e nuovi
+215,Isole,Traduzione,2025-11-30,97,4,135.28,33.82,1,Occasionali e nuovi
+216,Isole,OCR,2026-08-12,80,2,217.61,108.8,1,Occasionali e nuovi
+217,Sud,Traduzione,2026-02-23,87,3,121.04,40.35,1,Occasionali e nuovi
+218,Centro,Geolocalizzazione,2026-03-03,42,4,129.62,32.4,1,Occasionali e nuovi
+219,Nord-Ovest,Email,2026-07-15,90,2,50.07,25.04,1,Occasionali e nuovi
+220,Isole,Email,2026-02-22,42,4,210.47,52.62,1,Occasionali e nuovi
+221,Nord-Ovest,Traduzione,2026-09-24,30,3,69.32,23.11,1,Occasionali e nuovi
+222,Nord-Ovest,Geolocalizzazione,2026-10-09,21,2,89.45,44.72,1,Occasionali e nuovi
+223,Isole,OCR,2026-09-23,9,2,28.29,14.14,1,Occasionali e nuovi
+224,Centro,Nessuna prevalente,2026-10-22,7,1,86.25,86.25,1,Occasionali e nuovi
+225,Sud,Email,2026-10-24,4,3,45.83,15.28,1,Occasionali e nuovi
+226,Centro,Email,2026-09-23,29,3,88.06,29.35,1,Occasionali e nuovi
+227,Centro,Geolocalizzazione,2026-10-20,4,3,83.37,27.79,1,Occasionali e nuovi
+228,Sud,Email,2026-10-31,0,1,60.97,60.97,1,Occasionali e nuovi
+229,Nord-Est,Traduzione,2026-10-22,0,1,77.15,77.15,1,Occasionali e nuovi
+230,Centro,Geolocalizzazione,2026-10-05,14,2,32.59,16.3,1,Occasionali e nuovi
+231,Nord-Ovest,OCR,2026-09-12,30,3,71.74,23.91,1,Occasionali e nuovi
+232,Centro,Traduzione,2026-10-21,9,1,70.66,70.66,1,Occasionali e nuovi
+233,Sud,Geolocalizzazione,2026-09-19,13,2,68.57,34.28,1,Occasionali e nuovi
+234,Sud,Email,2026-10-18,12,3,37.97,12.66,1,Occasionali e nuovi
+235,Centro,Email,2026-10-13,18,2,62.15,31.08,1,Occasionali e nuovi
+236,Nord-Est,Geolocalizzazione,2026-10-17,6,3,33.83,11.28,1,Occasionali e nuovi
+237,Centro,Geolocalizzazione,2026-10-18,12,1,78.77,78.77,1,Occasionali e nuovi
+238,Nord-Est,OCR,2026-10-24,0,2,79.76,39.88,1,Occasionali e nuovi
+239,Isole,Geolocalizzazione,2026-10-07,17,3,46.11,15.37,1,Occasionali e nuovi
+240,Nord-Ovest,Traduzione,2026-10-27,3,3,32.96,10.99,1,Occasionali e nuovi
+241,Isole,Traduzione,2026-09-03,2,2,66.06,33.03,1,Occasionali e nuovi
+242,Sud,Email,2026-09-16,20,2,43.16,21.58,1,Occasionali e nuovi
+243,Centro,Email,2026-10-11,5,3,62.21,20.74,1,Occasionali e nuovi
+244,Isole,Traduzione,2026-10-04,27,1,31.9,31.9,1,Occasionali e nuovi
+245,Centro,OCR,2026-09-28,2,2,89.64,44.82,1,Occasionali e nuovi
+246,Nord-Ovest,OCR,2026-10-10,5,1,55.94,55.94,1,Occasionali e nuovi
+247,Nord-Est,OCR,2026-09-04,24,2,48.09,24.04,1,Occasionali e nuovi
+248,Isole,OCR,2026-10-25,1,2,35.78,17.89,1,Occasionali e nuovi
+249,Sud,Traduzione,2026-09-13,24,3,35.27,11.76,1,Occasionali e nuovi
+250,Isole,Geolocalizzazione,2026-09-13,18,3,61.42,20.47,1,Occasionali e nuovi
+251,Nord-Ovest,Traduzione,2026-09-06,20,2,32.08,16.04,1,Occasionali e nuovi
+252,Isole,Email,2026-10-03,20,2,83.71,41.86,1,Occasionali e nuovi
+253,Sud,Email,2026-10-09,16,1,37.94,37.94,1,Occasionali e nuovi
+254,Nord-Ovest,Traduzione,2026-10-28,2,2,26.14,13.07,1,Occasionali e nuovi
+255,Nord-Ovest,Traduzione,2026-10-02,18,3,96.8,32.27,1,Occasionali e nuovi
+256,Centro,Traduzione,2026-09-03,25,3,75.63,25.21,1,Occasionali e nuovi
+257,Centro,Email,2026-09-29,4,1,50.55,50.55,1,Occasionali e nuovi
+258,Sud,Traduzione,2026-09-29,20,1,13.52,13.52,1,Occasionali e nuovi
+259,Centro,Geolocalizzazione,2026-09-28,16,3,41.11,13.7,1,Occasionali e nuovi
+260,Nord-Ovest,Geolocalizzazione,2026-10-07,13,2,74.31,37.16,1,Occasionali e nuovi
+261,Sud,Geolocalizzazione,2026-10-27,2,1,60.22,60.22,1,Occasionali e nuovi
+262,Nord-Est,Geolocalizzazione,2026-10-15,4,2,26.52,13.26,1,Occasionali e nuovi
+263,Nord-Ovest,Geolocalizzazione,2026-10-12,12,1,63.55,63.55,1,Occasionali e nuovi
+264,Nord-Est,Email,2026-09-26,12,3,85.42,28.47,1,Occasionali e nuovi
+265,Nord-Ovest,Geolocalizzazione,2026-09-20,21,2,60.68,30.34,1,Occasionali e nuovi
+266,Sud,OCR,2026-10-12,5,1,40.76,40.76,1,Occasionali e nuovi
+267,Nord-Ovest,Email,2026-10-17,2,1,16.94,16.94,1,Occasionali e nuovi
+268,Sud,OCR,2026-09-19,10,3,39.17,13.06,1,Occasionali e nuovi
+269,Nord-Est,Traduzione,2026-10-21,2,3,83.98,27.99,1,Occasionali e nuovi
+270,Nord-Est,Traduzione,2026-10-29,1,2,74.11,37.06,1,Occasionali e nuovi
+271,Nord-Est,OCR,2026-09-22,9,3,84.87,28.29,1,Occasionali e nuovi
+272,Isole,Nessuna prevalente,2026-10-12,15,1,43.11,43.11,1,Occasionali e nuovi
+273,Isole,Traduzione,2026-10-02,24,2,82.25,41.12,1,Occasionali e nuovi
+274,Centro,Email,2026-10-21,3,3,39.69,13.23,1,Occasionali e nuovi
+275,Nord-Ovest,Email,2026-09-20,15,2,64.36,32.18,1,Occasionali e nuovi
+276,Isole,OCR,2026-10-13,2,1,34.55,34.55,1,Occasionali e nuovi
+277,Nord-Est,Traduzione,2026-09-08,13,1,95.18,95.18,1,Occasionali e nuovi
+278,Sud,Geolocalizzazione,2026-09-05,11,1,47.34,47.34,1,Occasionali e nuovi
+279,Nord-Ovest,Geolocalizzazione,2026-10-16,12,1,43.74,43.74,1,Occasionali e nuovi
+280,Nord-Est,OCR,2026-09-02,3,3,75.5,25.17,1,Occasionali e nuovi
+281,Non indicata,Traduzione,2026-06-24,124,8,720.39,90.05,0,Inattivi
+282,Nord-Ovest,Geolocalizzazione,2026-03-11,198,1,907.74,907.74,0,Inattivi
+283,Isole,Traduzione,2026-05-09,173,3,562.34,187.45,0,Inattivi
+284,Nord-Ovest,Email,2026-06-05,144,5,275.76,55.15,0,Inattivi
+285,Nord-Ovest,Traduzione,2026-05-03,146,10,511.4,51.14,0,Inattivi
+286,Isole,OCR,2026-02-01,257,1,639.32,639.32,0,Inattivi
+287,Isole,Geolocalizzazione,2026-01-01,156,5,457.78,91.56,0,Inattivi
+288,Nord-Ovest,Geolocalizzazione,2026-05-03,156,7,244.2,34.89,0,Inattivi
+289,Isole,Email,2026-06-16,136,9,551.67,61.3,0,Inattivi
+290,Centro,Geolocalizzazione,2026-03-26,180,1,642.96,642.96,0,Inattivi
+291,Centro,OCR,2025-12-24,124,6,801.21,133.54,0,Inattivi
+292,Centro,OCR,2025-12-28,288,2,776.07,388.04,0,Inattivi
+293,Nord-Est,Traduzione,2026-06-22,125,9,398.08,44.23,1,Occasionali e nuovi
+294,Nord-Ovest,Traduzione,2026-01-06,242,3,817.15,272.38,0,Inattivi
+295,Nord-Est,Email,2026-06-24,124,4,82.05,20.51,1,Occasionali e nuovi
+296,Isole,Traduzione,2026-04-14,159,9,452.38,50.26,0,Inattivi
+297,Nord-Ovest,Geolocalizzazione,2026-04-30,124,4,314.67,78.67,1,Occasionali e nuovi
+298,Sud,Traduzione,2026-04-25,135,6,470.73,78.46,0,Inattivi
+299,Sud,Traduzione,2025-11-16,218,6,975.3,162.55,0,Inattivi
+300,Sud,Email,2026-03-31,186,5,811.09,162.22,0,Inattivi
+301,Centro,Email,2026-03-15,197,3,559.11,186.37,0,Inattivi
+302,Isole,Traduzione,2026-06-13,130,5,341.17,68.23,1,Occasionali e nuovi
+303,Centro,Traduzione,2026-05-22,148,6,480.3,80.05,0,Inattivi
+304,Sud,Geolocalizzazione,2026-04-24,127,2,677.76,338.88,0,Inattivi
+305,Isole,Traduzione,2026-02-22,160,1,159.92,159.92,0,Inattivi
+306,Centro,Geolocalizzazione,2026-06-25,122,2,251.28,125.64,0,Inattivi
+307,Sud,Geolocalizzazione,2026-03-27,192,1,612.99,612.99,0,Inattivi
+308,Isole,Geolocalizzazione,2026-03-30,176,2,582.44,291.22,0,Inattivi
+309,Nord-Ovest,Email,2026-03-24,160,5,287.13,57.43,0,Inattivi
+310,Isole,Nessuna prevalente,2025-12-27,167,8,556.33,69.54,0,Inattivi
+311,Isole,Geolocalizzazione,2026-04-27,153,8,277.4,34.67,0,Inattivi
+312,Nord-Ovest,Traduzione,2026-01-07,245,4,157.73,39.43,0,Inattivi
+313,Centro,Geolocalizzazione,2026-05-20,148,2,814.3,407.15,0,Inattivi
+314,Centro,OCR,2026-01-03,136,9,583.38,64.82,0,Inattivi
+315,Isole,OCR,2026-01-02,301,3,799.89,266.63,0,Inattivi
+316,Sud,Email,2026-06-02,132,3,259.63,86.54,0,Inattivi
+317,Isole,OCR,2026-04-02,190,10,432.02,43.2,0,Inattivi
+318,Sud,Traduzione,2026-01-28,142,2,323.1,161.55,0,Inattivi
+319,Centro,Email,2025-12-19,224,10,166.38,16.64,0,Inattivi
+320,Isole,OCR,2026-03-10,179,9,403.51,44.83,0,Inattivi
+321,Nord-Ovest,Email,2025-12-19,153,7,537.66,76.81,0,Inattivi
+322,Centro,OCR,2026-02-21,159,5,206.42,41.28,0,Inattivi
+323,Centro,OCR,2026-04-06,186,5,853.64,170.73,0,Inattivi
+324,Centro,Email,2026-01-22,261,5,168.91,33.78,0,Inattivi
+325,Nord-Est,OCR,2026-02-25,163,10,947.45,94.74,0,Inattivi
+326,Isole,Email,2026-01-16,279,10,403.86,40.39,0,Inattivi
+327,Isole,Geolocalizzazione,2025-12-04,127,2,64.55,32.28,1,Occasionali e nuovi
+328,Nord-Ovest,Traduzione,2026-01-18,173,10,474.93,47.49,0,Inattivi
+329,Centro,Traduzione,2025-11-18,280,9,353.6,39.29,0,Inattivi
+330,Non indicata,Email,2026-05-02,171,7,346.61,49.52,0,Inattivi
+331,Nord-Est,Geolocalizzazione,2026-05-24,148,7,520.35,74.34,0,Inattivi
+332,Centro,Geolocalizzazione,2026-01-29,156,6,869.8,144.97,0,Inattivi
+333,Nord-Ovest,Geolocalizzazione,2026-03-23,136,6,544.08,90.68,0,Inattivi
+334,Nord-Est,OCR,2026-05-03,149,2,282.12,141.06,0,Inattivi
+335,Isole,Traduzione,2026-06-09,121,5,948.12,189.62,0,Inattivi
+336,Centro,OCR,2026-05-01,140,6,937.73,156.29,0,Inattivi
+337,Sud,Traduzione,2025-12-20,160,8,996.29,124.54,0,Inattivi
+338,Sud,Traduzione,2025-11-20,198,8,101.32,12.66,0,Inattivi
+339,Nord-Ovest,Geolocalizzazione,2026-05-03,133,10,417.61,41.76,0,Inattivi
+340,Nord-Ovest,Email,2026-02-27,196,8,342.89,42.86,0,Inattivi
+341,Sud,Geolocalizzazione,2026-03-15,137,5,741.13,148.23,0,Inattivi
+342,Nord-Est,Geolocalizzazione,2026-06-22,126,1,578.88,578.88,0,Inattivi
+343,Sud,Geolocalizzazione,2026-02-12,193,2,398.62,199.31,0,Inattivi
+344,Nord-Ovest,Traduzione,2025-12-04,279,10,206.93,20.69,0,Inattivi
+345,Nord-Est,OCR,2026-03-30,163,9,944.44,104.94,0,Inattivi
+346,Nord-Ovest,Email,2026-01-30,250,7,535.07,76.44,0,Inattivi
+347,Nord-Est,OCR,2026-05-29,141,8,557.79,69.72,0,Inattivi
+348,Isole,Geolocalizzazione,2026-04-11,198,6,212.75,35.46,0,Inattivi
+349,Isole,Traduzione,2026-02-02,206,9,843.74,93.75,0,Inattivi
+350,Nord-Ovest,Geolocalizzazione,2026-01-03,264,5,501.15,100.23,0,Inattivi
+351,Nord-Ovest,Traduzione,2026-04-10,134,7,612.84,87.55,0,Inattivi
+352,Nord-Est,Traduzione,2026-04-27,149,1,591.85,591.85,0,Inattivi
+353,Nord-Ovest,OCR,2026-05-27,135,1,581.12,581.12,0,Inattivi
+354,Sud,OCR,2026-06-29,123,6,453.65,75.61,1,Occasionali e nuovi
+355,Nord-Ovest,OCR,2026-03-20,184,10,928.47,92.85,0,Inattivi
+356,Sud,Traduzione,2026-02-21,173,9,385.8,42.87,0,Inattivi
+357,Centro,Geolocalizzazione,2026-04-14,142,8,919.15,114.89,0,Inattivi
+358,Nord-Est,OCR,2026-01-11,284,5,629.57,125.91,0,Inattivi
+359,Centro,Nessuna prevalente,2026-04-23,191,5,263.62,52.72,0,Inattivi
+360,Centro,Geolocalizzazione,2026-01-04,173,8,371.68,46.46,0,Inattivi
+361,Sud,Traduzione,2026-04-21,135,10,708.96,70.9,0,Inattivi
+362,Centro,Email,2025-12-06,208,3,311.74,103.91,0,Inattivi
+363,Nord-Est,OCR,2026-04-06,176,5,759.97,151.99,0,Inattivi
+364,Centro,OCR,2025-12-04,257,5,936.37,187.27,0,Inattivi
+365,Nord-Ovest,OCR,2026-06-06,139,10,315.35,31.54,0,Inattivi
+366,Centro,Traduzione,2026-01-21,179,1,118.19,118.19,0,Inattivi
+367,Isole,OCR,2026-06-08,141,3,35.03,11.68,1,Occasionali e nuovi
+368,Nord-Est,Geolocalizzazione,2026-03-21,203,8,519.25,64.91,0,Inattivi
+369,Nord-Ovest,OCR,2026-04-12,156,1,909.78,909.78,0,Inattivi
+370,Nord-Est,Email,2026-02-17,129,3,435.35,145.12,0,Inattivi
+371,Centro,Email,2025-12-01,221,8,251.41,31.43,0,Inattivi
+372,Centro,Geolocalizzazione,2026-07-01,121,10,642.5,64.25,1,Occasionali e nuovi
+373,Nord-Est,Traduzione,2026-03-09,202,9,567.13,63.01,0,Inattivi
+374,Sud,Geolocalizzazione,2026-04-25,144,2,344.07,172.04,0,Inattivi
+375,Centro,OCR,2026-01-01,167,1,741.89,741.89,0,Inattivi
+376,Isole,Geolocalizzazione,2026-05-20,159,7,839.1,119.87,0,Inattivi
+377,Nord-Est,Traduzione,2026-06-11,132,2,201.09,100.54,0,Inattivi
+378,Nord-Est,Traduzione,2026-04-12,151,1,275.57,275.57,0,Inattivi
+379,Isole,Email,2025-12-23,188,6,343.83,57.3,0,Inattivi
+380,Nord-Ovest,Traduzione,2026-04-28,166,4,99.64,24.91,0,Inattivi
+381,Centro,Email,2026-04-16,140,7,708.05,101.15,0,Inattivi
+382,Nord-Est,OCR,2026-01-21,195,6,637.75,106.29,0,Inattivi
+383,Isole,Geolocalizzazione,2026-03-03,139,8,767.92,95.99,0,Inattivi
+384,Isole,OCR,2026-03-19,209,9,920.65,102.29,0,Inattivi
+385,Nord-Ovest,Traduzione,2025-12-20,183,10,885.82,88.58,0,Inattivi
+386,Nord-Ovest,Email,2026-02-18,212,2,918.9,459.45,0,Inattivi
+387,Isole,OCR,2025-12-03,260,9,273.96,30.44,0,Inattivi
+388,Nord-Est,Traduzione,2026-05-22,140,9,492.07,54.67,0,Inattivi
+389,Sud,OCR,2026-06-10,136,8,824.0,103.0,0,Inattivi
+390,Isole,Traduzione,2026-02-22,226,8,598.8,74.85,0,Inattivi
+391,Nord-Ovest,Nessuna prevalente,2026-01-12,198,1,408.03,408.03,0,Inattivi
+392,Nord-Ovest,Email,2026-02-05,138,1,435.22,435.22,0,Inattivi
+393,Sud,Email,2025-11-06,348,2,986.41,493.2,0,Inattivi
+394,Sud,Geolocalizzazione,2026-04-21,172,3,775.9,258.63,0,Inattivi
+395,Sud,Traduzione,2025-11-17,217,8,880.05,110.01,0,Inattivi
+396,Centro,Nessuna prevalente,2026-06-13,137,3,663.93,221.31,0,Inattivi
+397,Nord-Est,Email,2026-05-19,154,7,561.82,80.26,0,Inattivi
+398,Isole,Traduzione,2025-12-22,125,5,489.85,97.97,0,Inattivi
+399,Centro,OCR,2026-02-17,217,4,277.61,69.4,0,Inattivi
+400,Sud,Email,2026-04-24,144,2,51.57,25.78,1,Occasionali e nuovi
