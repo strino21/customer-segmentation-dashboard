@@ -8,6 +8,8 @@ apprendimento automatico non supervisionato (K-Means) e dashboard interattiva.
 (email, OCR, geolocalizzazione, traduzione) con crediti prepagati. Tutti i dati sono
 **sintetici**, generati per l'occasione, e non contengono informazioni personali.
 
+![Dashboard: i gruppi di clienti](immagini/dashboard_gruppi.png)
+
 ## Cosa fa
 
 1. **Genera** 400 clienti realistici in 4 profili (molto attivi, occasionali, recenti, inattivi).
@@ -41,6 +43,9 @@ pip install -r requirements.txt
 ```
 
 ## Esecuzione
+
+Tutti i comandi vanno lanciati dalla cartella principale del progetto
+(`cd customer-segmentation-dashboard`), con l'ambiente virtuale attivo.
 
 I risultati sono già inclusi nel repository, quindi la dashboard si può avviare subito:
 
@@ -91,7 +96,7 @@ perché nei comportamenti di acquisto (R, F, M) sono simili.
 │   ├── customers.csv      # dati sintetici dei clienti (una riga per cliente)
 │   ├── profiles.csv       # profilo con cui è stato generato ogni cliente (verifica finale in analysis.py)
 │   └── clusters.csv       # risultati: ogni cliente con il suo gruppo e segmento
-├── immagini/              # grafici del gomito e della silhouette
+├── immagini/              # grafici del gomito e della silhouette, screenshot della dashboard
 ├── models/                # modello K-Means e scaler salvati (usati dalla dashboard)
 ├── src/
 │   ├── generate_data.py   # generatore dei dati sintetici
@@ -115,6 +120,17 @@ perché nei comportamenti di acquisto (R, F, M) sono simili.
 | `total_spent` | spesa totale in euro |
 
 Zona e categoria contengono alcuni valori mancanti voluti (2% e 3%), gestiti nell'analisi.
+
+## Colonne di `clusters.csv`
+
+Contiene le stesse colonne di `customers.csv`, con i valori mancanti già sostituiti
+(zona → "Non indicata", categoria → "Nessuna prevalente"), più tre colonne:
+
+| Colonna | Significato |
+|---|---|
+| `avg_spent` | spesa media per ricarica in euro (`total_spent / recharges`), usata da K-Means come M |
+| `cluster` | numero del gruppo assegnato da K-Means (0, 1, 2) |
+| `segment` | nome del segmento (Clienti di valore, Occasionali e nuovi, Inattivi) |
 
 ## Licenza
 
