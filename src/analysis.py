@@ -186,6 +186,19 @@ def save_results(df: pd.DataFrame, kmeans: KMeans, scaler: StandardScaler,
     joblib.dump(scaler, SCALER_PATH)
 
 
+def compare_with_profiles(df: pd.DataFrame, segment_names: dict[int, str],
+                          labels: np.ndarray) -> pd.DataFrame:
+    """Confronta i segmenti trovati con i profili usati per generare i dati (profiles.csv).
+
+    È una verifica possibile solo con dati simulati: con dati reali il profilo vero
+    non esiste. Restituisce una tabella segmento × profilo con il numero di clienti.
+    """
+    true_profiles = pd.read_csv(PROFILES_PATH)
+    results = df.assign(segment=pd.Series(labels).map(segment_names).values)
+    merged = results.merge(true_profiles, on="customer_id")
+    return pd.crosstab(merged["segment"], merged["profile"])
+
+
 def main() -> None:
     """Esegue l'analisi completa: preparazione, scelta di k, modello finale e salvataggio."""
     np.set_printoptions(suppress=True)
@@ -222,6 +235,9 @@ def main() -> None:
     segment_names = name_segments(final_profiles)
     print(f"\n=== Modello finale: k = {CHOSEN_K} ===")
     print(final_profiles.rename(index=segment_names).round(1))
+
+    print("\n=== Verifica: segmenti trovati × profili usati per generare i dati ===")
+    print(compare_with_profiles(df, segment_names, final_model.labels_))
 
     save_results(df, final_model, scaler, segment_names)
     print(f"Risultati salvati in {CLUSTERS_PATH}, modello e scaler in {MODELS_DIR}")
